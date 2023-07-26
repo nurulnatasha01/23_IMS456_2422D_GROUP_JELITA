@@ -1,0 +1,137 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Feedback</title>
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<div class="logo"><img src="img/logo 30.png"></div>
+			<ul class="navItems">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="aboutus.html">ABOUT US</a></li>
+				<li><a href="ourproduct.html">OUR PRODUCT </a></li>
+				<li><a href="contactus.html">CONTACT US</a></li>
+                <li><a href="feedback.html">FEEDBACK</a></li>
+			</ul>
+			<div class="links">
+				<a href="https://www.facebook.com/JelitaaCosmetic/" target="_blank"><i class="fab fa-facebook"></i></a>
+				<a href="https://instagram.com/jelitacosmetic__?igshid=MjEwN2IyYWYwYw==" target="_blank"><i class="fab fa-instagram"></i></a>
+			</div>
+		</nav>
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Gallery Page</title>
+          <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+          <div class="gallery">
+            <div class="gallery-item">
+              <img src="img/feedvack 1.jpg" alt="Image 1">
+              <div class="caption">FEEDBACK 1</div>
+            </div>
+            <div class="gallery-item">
+              <img src="img/feedback 2.jpg" alt="Image 2">
+              <div class="caption">FEEDBACK  2</div>
+            </div>
+            <div class="gallery-item">
+              <img src="img/feedback 3.jpg" alt="Image 3">
+              <div class="caption">FEEDBACK 3</div>
+            </div>
+            <div class="gallery-item">
+              <img src="img/feedback 4.jpg" alt="Image 4">
+              <div class="caption">FEEDBACK  4</div>
+            </div>
+            <div class="gallery-item">
+              <img src="img/feedback 5.jpg" alt="Image 5">
+              <div class="caption">FEEDBACK 5</div>
+            </div>
+            <div class="gallery-item">
+              <img src="img/feedback 6.jpg" alt="Image 6">
+              <div class="caption">FEEDBACK  6</div>
+            </div>
+          </div>
+        
+          <div class="lightbox-overlay">
+            <img src="" alt="Lightbox Image" class="lightbox-image">
+          </div>
+        
+          <style>
+            body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.gallery-item .caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.gallery-item:hover .caption {
+  opacity: 1;
+}
+
+.lightbox-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox-image {
+  max-width: 90%;
+  max-height: 80%;
+}
+
+.lightbox-overlay img {
+  display: block;
+  margin: 0 auto;
+}
+
+          </style>
+        </body>
+        </html>
+         
+       
